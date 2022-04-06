@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="registration_form.js"></script>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        
+        form {
+            background-color: #DCDCDC;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" name="StudentSignupForm" onsubmit="return(validateHTMlform());">
+
+        <div cellpadding="2" width="20%" cellspacing="2">
+
+            <ul>
+                <li>
+                    <center>
+                        <font size=4><b>Student Registration Form</b></font>
+                    </center>
+                </li>
+            </ul>
+
+            <ul>
+                <li>First Name :</li>
+                <li><input type=text name=textnames id="textname" size="30"></li>
+            </ul>
+
+            <ul>
+                <li>
+                    Middle Name :</li>
+                <li><input type=text name=middlenames id="middlename" size="30"></li>
+            </ul>
+
+            <ul>
+                <li>Last Name :</li>
+                <li><input type="text" name="lastname" id="lastname" size="30"></li>
+            </ul>
+
+
+            <ul>
+                <li>Address :</li>
+                <li><input type="text" name="personal_address" id="personaladdress" size="30"></li>
+            </ul>
+
+            <ul>
+                <li>Gender :</li>
+                <li><input type="radio" name="sex" value="male" size="10">M
+                    <input type="radio" name="sex" value="Female" size="10">F</li>
+            </ul>
+
+            <ul>
+                <li>City :
+                </li>
+                <li><select name="City">
+<option value="-1" selected>select...</option>
+<option value="Nadiad">Anand</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Vadodara">Vadodara</option>
+<option value="Surat">Surat</option>
+</select></li>
+            </ul>
+
+            <ul>
+                <li>Course</li>
+                <li><select name="Course">
+<option value="-1" selected>select...</option>
+<option value="B.Tech">B.TECH</option>
+<option value="BBA">BE</option>
+<option value="BCA">MTECH</option>
+</select></li>
+            </ul>
+            <ul>
+                <li>Student's E-Mail ID :</li>
+                <li><input type="text" name="email_id" id="emailid" size="30"></li>
+            </ul>
+
+            <ul>
+                <li>Date Of Birth :</li>
+                <li><input type="text" name="date_of_birth" id="dob" size="30"></li>
+            </ul>
+
+            <ul>
+                <li>Mobile Number :</li>
+                <li><input type="text" name="mobilenumber" id="mobile_no" size="30"></li>
+            </ul>
+            <ul>
+                <li><input type="reset"></li>
+                <li colspan="2"><input type="submit" value="Submit Form" /></li>
+            </ul>
+        </div>
+    </form>
+</body>
+
+</html>
