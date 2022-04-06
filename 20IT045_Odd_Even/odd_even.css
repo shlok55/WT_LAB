@@ -1,0 +1,11 @@
+.odd {
+    display: inline;
+    color: black;
+    background-color: #ff3c00;
+}
+
+.even {
+    display: inline;
+    color: white;
+    background-color: rgb(81, 255, 0);
+}
