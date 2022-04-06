@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(50, 80, 100);
+}
+.container{
+   background-color: rgb(120, 160, 200);
+   border: 25px solid rgb(70, 50, 25);
+    padding: 5rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(100, 40, 80);
+}
+p{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
