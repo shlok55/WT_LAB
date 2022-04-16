@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    /* background: url(../images/hero-bk.PNG); */
+    background: linear-gradient(to right, #EDF1F4 1%, #2B3B5F 90%);
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+    line-height: 2;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 8px 12px;
+    border-bottom: dotted 4px #fff;
+}
+
+.container {
+    width: 100%;
+}
+
+.sea-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.boat-img {
+    display: flex;
+    width: 220px;
+    margin-top: -500px;
+    /* filter: drop-shadow(0px 20px 3px black); */
+    animation: boat 15s linear infinite;
+    -webkit-box-reflect: below;
+    animation-direction: alternate;
+}
+
+@keyframes shinchan {
+    100% {
+        transform: translateX(1400px);
+    }
+    0% {
+        transform: translateX(0px);
+    }
+   
+}
